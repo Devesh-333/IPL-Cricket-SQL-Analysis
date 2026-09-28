@@ -87,7 +87,7 @@ The SQL project contains 22 analysis sections covering:
 
 Key Findings
 
-### Team Performance
+Team Performance
 
 The team-match analysis shows the following teams among the highest in
 total wins:
@@ -183,10 +183,10 @@ How to Run
 5.  Open the SQL file in pgAdmin or run it through `psql`.
 6.  Execute the queries section by section or run the complete file.
 
-## Author
+Author
 
-**Devesh Singh Panwar**
+Devesh Singh Panwar**
 
-B.Com (Hons) --- Doon University
+B.Com (Hons) - Doon University
 
 Interested in SQL, data analytics, finance, AI and business strategy.
