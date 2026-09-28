@@ -1,9 +1,9 @@
-# IPL Cricket Analysis --- SQL Portfolio Project
+IPL Cricket Analysis - SQL Portfolio Project
 
-## Project Overview
+Project Overview
 
 This project analyzes IPL match and ball-by-ball data from the
-**2007/08--2024** seasons using PostgreSQL.
+2007/08--2024 seasons using PostgreSQL.
 
 The analysis focuses on:
 
@@ -21,14 +21,14 @@ The analysis focuses on:
 -   Season-level batting leaders
 -   Year-over-year run trends
 
-## Dataset
+Dataset
 
 The project uses the IPL Complete Dataset containing:
 
 -   `matches.csv` --- match-level information
 -   `deliveries.csv` --- ball-by-ball information
 
-### Dataset scale
+Dataset scale
 
   Metric              Value
   --------------- ---------
@@ -40,7 +40,7 @@ The project uses the IPL Complete Dataset containing:
   Seasons                17
   Total runs        347,756
 
-## Tools & Skills
+Tools & Skills
 
 **Tools** - PostgreSQL - SQL - Terminal / psql
 
@@ -48,7 +48,7 @@ The project uses the IPL Complete Dataset containing:
 Aggregate functions - FILTER - CASE statements - CTEs - JOINs -
 Subqueries - Window functions - RANK() - LAG() - Data-quality checks
 
-## Project Structure
+Project Structure
 
 ``` text
 IPL_Cricket_Analysis/
@@ -58,7 +58,7 @@ IPL_Cricket_Analysis/
 └── insights.md
 ```
 
-## Analysis Sections
+Analysis Sections
 
 The SQL project contains 22 analysis sections covering:
 
@@ -85,7 +85,7 @@ The SQL project contains 22 analysis sections covering:
 21. Batters above the overall run average using a subquery
 22. Teams above the average match-win count using a subquery
 
-## Key Findings
+Key Findings
 
 ### Team Performance
 
@@ -100,7 +100,7 @@ total wins:
   Royal Challengers Bangalore                240    116
   Rajasthan Royals                           221    112
 
-### Batting Leaders
+Batting Leaders
 
 The leading run scorers in the dataset include:
 
@@ -112,7 +112,7 @@ The leading run scorers in the dataset include:
   RG Sharma     6,360
   SK Raina      5,636
 
-### Wicket Leaders
+Wicket Leaders
 
 The leading wicket-takers include:
 
@@ -124,7 +124,7 @@ The leading wicket-takers include:
   B Kumar           181
   R Ashwin          180
 
-### Toss Analysis
+Toss Analysis
 
 Among matches where a result was recorded:
 
@@ -136,7 +136,7 @@ Among matches where a result was recorded:
 These figures describe the historical dataset; they do not establish
 that the toss decision causes the result.
 
-### Venue Activity
+Venue Activity
 
 The most frequently used venues in the dataset include:
 
@@ -146,7 +146,7 @@ The most frequently used venues in the dataset include:
 -   Feroz Shah Kotla --- 60
 -   Rajiv Gandhi International Stadium, Uppal --- 49
 
-## Data Quality
+Data Quality
 
 A delivery-level data-quality check was included before the analysis.
 
@@ -161,7 +161,7 @@ checked:
 -   `batsman_runs`
 -   `total_runs`
 
-## Why This Project Matters
+Why This Project Matters
 
 This project demonstrates how SQL can be used to turn raw sports data
 into structured performance analysis.
@@ -174,7 +174,7 @@ It goes beyond simple `GROUP BY` queries by using:
 -   Subqueries to compare players and teams against overall averages
 -   Conditional aggregation to calculate wins, wickets and toss outcomes
 
-## How to Run
+How to Run
 
 1.  Install PostgreSQL.
 2.  Create a database named `ipl analysis`.
